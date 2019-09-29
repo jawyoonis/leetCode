@@ -1,3 +1,6 @@
+
+# time: O(N), space: O(1)
+
 class Solution(object):
     def trap(self, arr):
         water=0
