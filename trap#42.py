@@ -16,7 +16,7 @@ class Solution(object):
                     left+=1
             else:
                 if rightwall < arr[right]:
-                    rightwall= arr[left]
+                    rightwall= arr[right]
                 else:
                     water+=rightwall-arr[right]
                     right-=1

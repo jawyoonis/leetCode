@@ -22,4 +22,4 @@ def fizzBuzz(n):
 
 
 
-print(fizzBuzz(15))
+print(fizzBuzz(100))
