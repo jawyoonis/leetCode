@@ -1,0 +1,5 @@
+INFO 2019-10-08 17:03:08,525 - our first message
+DEBUG 2019-10-08 17:03:08,525 - this is hamless message
+WARNING 2019-10-08 17:03:08,526 - I am sorry but you can not do that sir!
+ERROR 2019-10-08 17:03:08,526 - this is an error in the code sxb
+CRITICAL 2019-10-08 17:03:08,526 - the entire servers are down
