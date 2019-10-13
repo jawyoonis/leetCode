@@ -4,6 +4,7 @@ class Solution:
         result=[]
         for i in strs:
             sortedwords= " ".join(sorted(i))
+            print(sortedwords)
             if sortedwords not in hashtable:
                 hashtable[sortedwords]= [i]
             else:
