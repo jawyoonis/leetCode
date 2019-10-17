@@ -1,6 +1,6 @@
 class Solution:
     def merge(self, intervals):
-        intervals.sort(key=lambda x: x.start)
+        start= intervals.sort(key=lambda x: x.start)
 
         merged = []
         for interval in intervals:

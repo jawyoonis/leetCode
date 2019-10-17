@@ -2,6 +2,7 @@ class Solution:
     def reverseString(self, s):
         if len(s) <=1:
             return s
+        # return s[-1::-1]
         words= s.split(" ")
         new_string=[]
         for word in words:
@@ -11,5 +12,5 @@ class Solution:
 
 
 
-
+#O(N): Time and O(1): Space 
 print(Solution().reverseString(" I love my mom "))
