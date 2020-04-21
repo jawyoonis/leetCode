@@ -45,24 +45,17 @@ class Stack():
 
 
 
-
-def reverseString(strings, stack ):
-  for i in range(len(strings)):
-    stack.push(strings[i])
-
-  reverse=''
+def reverse_string(stack, input_str):
+  for i in range(len(input_str)):
+    stack.push(input_str[i])
+  rev_str = ""
   while not stack.is_empty():
-    reverse+=stack.pop()
-  return reverse 
+    rev_str += stack.pop()
 
+  return rev_str
 
-
-
-
-
-  s= Stack()
-
-  print(s.reverseString("hello", s))
-
+stack = Stack()
+input_str = "!evitacudE ot emocleW"
+print(reverse_string(stack, input_str))
 
 

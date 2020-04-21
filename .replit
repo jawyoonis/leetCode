@@ -1,2 +1,3 @@
 language = "python3"
-run = ""
+
+run= "git add.; git commit -m 'new info'; git push origin master; awyoonisj;Catgreen23jamaal4127596"
