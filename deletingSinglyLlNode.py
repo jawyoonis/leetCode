@@ -43,7 +43,7 @@ class LinkedList:
         new_node.next = prev_node.next
         prev_node.next = new_node
 
-    def delete_node(self, key):
+    def delete_node_key(self, key):
 
         cur_node = self.head
 
@@ -70,7 +70,7 @@ llist.append("B")
 llist.append("C")
 llist.append("D")
 
-llist.delete_node("B")
-llist.delete_node("E")
+llist.delete_node_key("B")
+llist.delete_node_key("E")
 
 llist.print_list()
